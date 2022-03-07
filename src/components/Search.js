@@ -1,5 +1,7 @@
+//Imported Libraries
 import React from "react";
 
+//Functional Component
 const Search = ({ searchValue, handleChangeValue }) => (
   <form className="search">
     <input
@@ -17,8 +19,8 @@ const Search = ({ searchValue, handleChangeValue }) => (
       type="text"
       name="tags"
       value={searchValue.tags}
-      autoComplete="off"
       onChange={(e) => handleChangeValue(e)}
+      autoComplete="off"
       placeholder="Search by tag"
     />
   </form>

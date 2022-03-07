@@ -1,4 +1,7 @@
+//Imported Libraries
 import React, { useState } from "react";
+
+//Imported Functions
 import { getAverage } from "../utilities/average";
 
 //Functional Component
