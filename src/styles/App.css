@@ -1,0 +1,212 @@
+* {
+  -ms-overflow-style: none;
+  font-family: "Raleway", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.search {
+  font-family: "Raleway", sans-serif;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+}
+
+.search__input--name {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  height: 1.5rem;
+  margin-top: 0.75rem;
+  padding-left: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.search__input--tags {
+  width: 96%;
+  padding-top: 1rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  height: 1.5rem;
+  margin-top: 0.6rem;
+  padding-left: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.search__input--name:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.search__input--tags:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.students__wrapper {
+  height: 80vh;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 9vh;
+  margin-bottom: 10vh;
+  background-color: white;
+  border-radius: 1rem;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.students__container {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.student__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.5px solid lightgray;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.student__container--image {
+  margin-left: 1.5rem;
+}
+
+.student__avatar {
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  float: left;
+  position: static;
+  margin-top: 2rem;
+  background-color: white;
+}
+
+.student__container--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 1.5rem;
+}
+
+.student__name {
+  margin-bottom: 0.2rem;
+  font-size: 2.25rem;
+}
+
+.student__details {
+  padding-left: 1.5rem;
+  line-height: 0.5rem;
+}
+
+.student__grades {
+  line-height: 1.1;
+  padding-bottom: 0.75rem;
+}
+
+.student__grades--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.student__grade {
+  padding-left: 1.5rem;
+}
+
+.student__tags {
+  margin-left: 160px;
+}
+
+.student__tag {
+  display: inline-block;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0.2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: lightgray;
+  border-radius: 4px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  font-weight: lighter;
+}
+
+.student__input {
+  padding-top: 0.6rem;
+  border: none;
+  width: 8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.student__input:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.student__container--button {
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-top: 0.65rem;
+}
+
+.student__button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 3.5rem;
+  color: gray;
+}
+
+.student__button:hover {
+  color: black;
+}
+/*# sourceMappingURL=App.css.map */

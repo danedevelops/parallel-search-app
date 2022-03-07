@@ -1,0 +1,46 @@
+.search {
+  font-family: "Raleway", sans-serif;
+  align-items: left;
+  justify-content: left;
+
+  &__input--name {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    height: 1.5rem;
+    margin-top: 0.75rem;
+    padding-left: 0.25rem;
+    padding-bottom: 0.25rem;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: lighter;
+  }
+
+  &__input--tags {
+    width: 96%;
+    padding-top: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    height: 1.5rem;
+    margin-top: 0.6rem;
+    padding-left: 0.25rem;
+    padding-bottom: 0.25rem;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: lighter;
+  }
+
+  &__input--name:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+
+  &__input--tags:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+}

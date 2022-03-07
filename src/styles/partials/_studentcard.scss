@@ -1,0 +1,108 @@
+.student {
+  &__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.5px solid lightgray;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  &__container--image {
+    margin-left: 1.5rem;
+  }
+
+  &__avatar {
+    align-items: left;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    float: left;
+    position: static;
+    margin-top: 2rem;
+    background-color: white;
+  }
+
+  &__container--info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+  }
+
+  &__name {
+    margin-bottom: 0.2rem;
+    font-size: 2.25rem;
+  }
+
+  &__details {
+    padding-left: 1.5rem;
+    line-height: 0.5rem;
+  }
+
+  &__grades {
+    line-height: 1.1;
+    padding-bottom: 0.75rem;
+  }
+
+  &__grades--container {
+    display: flex;
+  }
+
+  &__grade {
+    padding-left: 1.5rem;
+  }
+
+  &__tags {
+    margin-left: 160px;
+  }
+
+  &__tag {
+    display: inline-block;
+    line-height: 1.3;
+    margin-bottom: 0.75rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    margin-left: 0.2rem;
+    width: fit-content;
+    background-color: lightgray;
+    border-radius: 4px;
+    align-content: center;
+    font-weight: lighter;
+  }
+
+  &__input {
+    padding-top: 0.6rem;
+    border: none;
+    width: 8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid lightgray;
+  }
+
+  &__input:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+
+  &__container--button {
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-top: 0.65rem;
+  }
+
+  &__button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 3.5rem;
+    color: gray;
+  }
+
+  &__button:hover {
+    color: black;
+  }
+}

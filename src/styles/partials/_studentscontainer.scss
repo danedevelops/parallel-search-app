@@ -1,0 +1,21 @@
+.students {
+  &__wrapper {
+    height: 80vh;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 9vh;
+    margin-bottom: 10vh;
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid lightgray;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  &__container {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
