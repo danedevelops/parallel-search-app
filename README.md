@@ -5,6 +5,4 @@
 3. run 'npm' start
 4. navigate to localhost:3000
 
-# Deployment
 
-App is available at the following link: https://hatchways-frontend-challenge.herokuapp.com/
